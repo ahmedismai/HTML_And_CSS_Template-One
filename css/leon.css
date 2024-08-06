@@ -339,11 +339,11 @@ body
 
 /*end protofolio*/
 /*Start About*/
-.about {
+.About {
     padding-top: var(--section-padding);
     padding-bottom: calc(var(--section-padding) + 60px);
   }
-  .about .about-content {
+  .About .About-content {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -355,17 +355,17 @@ body
       text-align: center;
     }
   }
-  .about .about-content .image {
+  .About .About-content .image {
     position: relative;
     width: 250px;
     height: 375px;
   }
   @media (max-width: 991px) {
-    .about .about-content .image {
+    .About .About-content .image {
       margin: 0 auto 60px;
     }
   }
-  .about .about-content .image::before {
+  .About .About-content .image::before {
     content: "";
     position: absolute;
     background-color: #ebeced;
@@ -375,7 +375,7 @@ body
     left: -20px;
     z-index: -1;
   }
-  .about .about-content .image::after {
+  .About .About-content .image::after {
     top: -40px;
     content: "";
     position: absolute;
@@ -387,28 +387,28 @@ body
     right: -150px;
   }
   @media (max-width: 991px) {
-    .about .about-content .image::before,
-    .about .about-content .image::after {
+    .About .About-content .image::before,
+    .About .About-content .image::after {
       display: none;
     }
   }
-  .about .about-content .image img {
+  .About .About-content .image img {
     max-width: 100%;
   }
-  .about .about-content .text {
+  .About .About-content .text {
     flex-basis: calc(100% - 500px);
   }
-  .about .about-content .text p:first-of-type {
+  .About .About-content .text p:first-of-type {
     font-weight: bold;
     line-height: 2;
     margin-bottom: 50px;
   }
-  .about .about-content .text hr {
+  .About .About-content .text hr {
     width: 50%;
     display: inline-block;
     border-color: var(--main-color);
   }
-  .about .about-content .text p:last-of-type {
+  .About .About-content .text p:last-of-type {
     line-height: 2;
     color: #777;
   }
