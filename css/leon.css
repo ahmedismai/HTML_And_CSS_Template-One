@@ -361,7 +361,6 @@ body
 }
 
 .About .About-content .image{
-    display: inline-block;
     position: relative;
     width: 250px;
     height: 375px;
@@ -370,7 +369,7 @@ body
 {
     .About .About-content .image
     {
-        margin: 0 auto 40px;
+        margin: 0 auto 60px;
     }
 }
 
