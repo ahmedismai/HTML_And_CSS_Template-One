@@ -359,6 +359,14 @@ body
         text-align: center;
     }
 }
+@media (max-width: 767px)
+{
+    .About .About-content
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 .About .About-content .image{
     display: inline-block;
     position: relative;
