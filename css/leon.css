@@ -372,6 +372,13 @@ body
         margin: 0 auto 60px;
     }
 }
+@media (max-width: 767px)
+{
+    .About .About-content .image
+    {
+        margin: 0 auto 60px;
+    }
+}
 .About .About-content .image::before
 {
     content: "";
