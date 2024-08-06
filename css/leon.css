@@ -7,7 +7,7 @@
 
 }
 /*start globle rules*/
-*{
+* {
     -webkit-box-sizing:border-box ;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -51,30 +51,30 @@ body
 }
 /*end globle rules*/
 /*start compenants*/
-.spacial-heading
+.special-heading
 {
     color: #ebeced;
     font-size: 100px;
     text-align: center;
     font-weight: 800px;
-    margin: 0;
     letter-spacing: -3px;
+    margin: 0;
 
 }
-.spacial-heading + p{
+.special-heading + p{
     margin: -30px 0 0;
     font-size: 20px;
     text-align: center;
     color: #797979;
 
 }
-@media (max-width:767px)
+@media (max-width: 767px)
 {
-    .spacial-heading
+    .special-heading
     {
         font-size: 60px;
     }
-    .spacial-heading + p{
+    .special-heading + p{
         margin-top: -20px;
     }
 }
@@ -163,7 +163,7 @@ body
     transition: 0.3s;
 }
 .header .links ul li a:hover{
-    padding: left 25px; 
+    padding-left:  25px; 
 
 }
 .header .links ul li:not(:last-child) a{
@@ -287,15 +287,16 @@ body
     position: absolute;
     z-index: -1;
 }
+.services .services-content .image img{
+    width: 260px;
+}
 @media (max-width:1199px)
 {
     .image{
         display: none;
     }
 }
-.services .services-content .image img{
-    width: 260px;
-}
+
 /*End Services*/
 /*Start protofolio*/
 .Protofolio{
@@ -435,6 +436,7 @@ body
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
+    
 }
 .Contact .info{
     padding-top: var(--section-padding);
@@ -453,11 +455,10 @@ body
 .Contact .info .link
 {
     display: block;
-    font-weight: 800;
-    text-decoration: none;
     font-size: 35px;
+    font-weight: 800;
     color: var(--main-color);
-
+    text-decoration: none;
 }
 .Contact .info .sociol
 {
@@ -471,7 +472,9 @@ body
     margin-left: 10px;
     color: var(--secondery-color);
 }
-@media (max-width:767px)
+
+
+@media (max-width: 767px)
 {
     .Contact .info .label,
     .Contact .info .link{
